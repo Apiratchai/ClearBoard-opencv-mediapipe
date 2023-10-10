@@ -3,7 +3,6 @@ import mediapipe as mp
 import win32api, win32con
 import numpy as np
 from PIL import ImageGrab
-from collections import deque
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
